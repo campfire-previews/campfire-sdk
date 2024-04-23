@@ -1,6 +1,6 @@
 {
   "name": "campfire-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SDK for the Campfire application",
   "main": "./dist/bundle.js",
 	"type": "module",

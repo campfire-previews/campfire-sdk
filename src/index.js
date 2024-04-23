@@ -11,7 +11,7 @@ class CampfireSDK {
 				const validOriginRegExp = /https:\/\/campfire\.(.*)/
 				if (validOriginRegExp.test(e.origin)) {
 					if (this.stopFn) this.stopFn()
-					this.stopFn = new rrweb.record({
+					this.stopFn = rrweb.record({
 						emit() {},
 						recordCrossOriginIframes: true,
 					})
